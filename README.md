@@ -1,1 +1,1 @@
-<img src="https://raw.githubusercontent.com/eliaslehman/my_site/master/images/logo.png" height="200">
+<img src="https://raw.githubusercontent.com/eliaslehman/my_site/master/images/logo.jpeg" height="200">
