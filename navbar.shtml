@@ -1,0 +1,32 @@
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand navbar-left" href="index.shtml">
+        <img class = "logo" src="images/logo.png">
+    </a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav" margin-right="auto">
+            <a class="nav-link" href="../index.shtml">Home</a>
+            <a class="nav-link" href="project.shtml">Research</a>
+            <a class="nav-link active" href="decal.shtml">Education</a>
+            <li class="nav-item">
+                <a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLScKzpYVdMcRcIqZXiw727V1yZusVuIEBF6GcxcEnKeFANGkaw/viewform?usp=sf_link">Join</a>
+            </li>
+        </ul>
+    </div>
+    <div class="caption">
+        <span class="border">
+            <div class="Header">
+                <br/>
+                Education
+            </div>
+            <div class="header-animation">
+                <canvas class="anim" id="canvas">
+            </div>
+        </span>
+    </div>
+</nav>
