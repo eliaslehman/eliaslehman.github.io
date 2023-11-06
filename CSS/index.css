@@ -21,10 +21,15 @@ html {
 }
 
 .profile { 
-    height: 15em;
-    width: 15em;
+    height: 20em;
+    width: 20em;
     border-radius: 50%;
     object-fit: cover;
+    animation: fadeIn 1s 1 forwards;
+    -webkit-animation: fadeIn 1s 1 forwards;
+    -moz-animation: fadeIn 1s 1 forwards;
+    -o-animation: fadeIn 1s 1 forwards;
+    -ms-animation: fadeIn 1s 1 forwards;
 }
 
 .video .overlay {
@@ -68,8 +73,13 @@ html {
 .row {
     align-items: center; 
     position: relative;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0.472);
     padding: 50px 10%;
+    animation: fadeIn 1s 1 forwards;
+    -webkit-animation: fadeIn 1s 1 forwards;
+    -moz-animation: fadeIn 1s 1 forwards;
+    -o-animation: fadeIn 1s 1 forwards;
+    -ms-animation: fadeIn 1s 1 forwards;
     /*text-align: justify;*/
 }
 
@@ -136,7 +146,6 @@ html {
 }
 
 .card-text {
-    font-family: 'Courier New', Courier, monospace;
     text-align: center;
     color: black;
 }
@@ -174,7 +183,6 @@ html {
 
 .middle:hover {
     background-color: rgba(255, 255, 255, 0.72);
-    font-family: 'Courier New', Courier, monospace;
     backdrop-filter: blur(2px);
     animation: fadeIn 1s 1 forwards;
     -webkit-animation: fadeIn 1s 1 forwards;
