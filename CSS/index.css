@@ -75,12 +75,20 @@ html {
     position: relative;
     background-color: rgba(255, 255, 255, 0.472);
     padding: 50px 10%;
-    animation: fadeIn 1s 1 forwards;
+    /* animation: fadeIn 1s 1 forwards;
     -webkit-animation: fadeIn 1s 1 forwards;
     -moz-animation: fadeIn 1s 1 forwards;
     -o-animation: fadeIn 1s 1 forwards;
-    -ms-animation: fadeIn 1s 1 forwards;
+    -ms-animation: fadeIn 1s 1 forwards; */
     /*text-align: justify;*/
+}
+
+.col {
+    animation: fadeIn 1s 2 forwards;
+    -webkit-animation: fadeIn 1s 2 forwards;
+    -moz-animation: fadeIn 1s 2 forwards;
+    -o-animation: fadeIn 1s 2 forwards;
+    -ms-animation: fadeIn 1s 2 forwards;
 }
 
 .fade-in-section {
