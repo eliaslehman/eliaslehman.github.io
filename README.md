@@ -1,2 +1,10 @@
-test
-![laser](https://github.com/eliaslehman/eliaslehman.github.io/assets/77815553/fd6ff140-f0ce-4070-89a0-032509a885f8)
+[X_ray_redshift_regression.pdf](https://github.com/eliaslehman/eliaslehman.github.io/files/13292171/X_ray_redshift_regression.pdf)
+[Transmon_Decoherence.pdf](https://github.com/eliaslehman/eliaslehman.github.io/files/13292170/Transmon_Decoherence.pdf)
+[SULI_2023_FINAL_REPORT.pdf](https://github.com/eliaslehman/eliaslehman.github.io/files/13292169/SULI_2023_FINAL_REPORT.pdf)
+![SLAC SULI Poster Session  Summer 2023](https://github.com/eliaslehman/eliaslehman.github.io/assets/77815553/c246a376-cdb4-40c5-b6e7-05709b5e4243)
+[Qudit_Parametric_Gate_Report.pdf](https://github.com/eliaslehman/eliaslehman.github.io/files/13292168/Qudit_Parametric_Gate_Report.pdf)
+[Mapping_SC_Qubit_Hamiltonians.pdf](https://github.com/eliaslehman/eliaslehman.github.io/files/13292167/Mapping_SC_Qubit_Hamiltonians.pdf)
+[EE_130_IC_Devices.pdf](https://github.com/eliaslehman/eliaslehman.github.io/files/13292166/EE_130_IC_Devices.pdf)
+[Cohort 6 Slides.pdf](https://github.com/eliaslehman/eliaslehman.github.io/files/13292165/Cohort.6.Slides.pdf)
+[C191_Transmon_Qubits.pdf](https://github.com/eliaslehman/eliaslehman.github.io/files/13292164/C191_Transmon_Qubits.pdf)
+[BPURS Poster Session  Spring 2023.pdf](https://github.com/eliaslehman/eliaslehman.github.io/files/13292163/BPURS.Poster.Session.Spring.2023.pdf)
