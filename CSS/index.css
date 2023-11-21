@@ -73,7 +73,7 @@ html {
 .row {
     align-items: center; 
     position: relative;
-    background-color: rgba(255, 255, 255, 0.55);
+    background-color: rgba(85, 85, 85, 0.55);
     padding: 50px 5%;
     animation: fadeIn 1s 1 forwards;
     -webkit-animation: fadeIn 1s 1 forwards;
@@ -99,6 +99,7 @@ html {
 
 .lead {
     text-align: justify;
+    color: white;
 }
 
 .carousel-item {
