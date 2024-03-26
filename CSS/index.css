@@ -21,9 +21,9 @@ html {
 }
 
 .profile { 
-    height: 20em;
+    height: 25em;
     width: 20em;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     object-fit: cover;
     animation: fadeIn 1s 1 forwards;
     -webkit-animation: fadeIn 1s 1 forwards;
