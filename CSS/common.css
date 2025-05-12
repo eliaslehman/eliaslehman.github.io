@@ -80,9 +80,12 @@
 .featurette-heading {
   font-family: 'Verdana', monospace;
   color: rgb(255, 255, 255);
-  font-weight: 300;
+  font-weight: 200;
   line-height: 1;
-  letter-spacing: -.05rem;
+}
+
+hr.featurette-divider {
+  border-top: 1px solid rgba(255, 255, 255, 0.208);
 }
 
 .Header {
@@ -106,7 +109,7 @@
 }
 
 .lead {
-  line-height: 40px;
+  line-height: 25px;
 }
 
 .h4, h3, p {

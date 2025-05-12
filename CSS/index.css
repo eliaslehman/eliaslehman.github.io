@@ -100,6 +100,8 @@ html {
 .lead {
     text-align: justify;
     color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
 }
 
 .carousel-item {
@@ -128,9 +130,11 @@ html {
 }
 
 .card {
-    height: 500px;
+    height: 470px;
     width: 400px;
     margin: 5%;
+
+    transition: box-shadow 0.5s ease-in-out;
 }
 
 .card:hover {
@@ -173,17 +177,30 @@ html {
 
 .middle {
     width: 100%;
-    height: 80%;
-    opacity: 0;
+    height: 100%;
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.72);
+    backdrop-filter: blur(2px);
     color: black;
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%)
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    animation: fadeOut 0.7s 1 forwards;
+    -webkit-animation: fadeOut 0.7s 1 forwards;
+    -moz-animation: fadeOut 0.7s 1 forwards;
+    -o-animation: fadeOut 0.7s 1 forwards;
+    -ms-animation: fadeOut 0.7s 1 forwards;
+    /* -moz-transition: opacity 0.5s linear;
+    -o-transition: opacity 0.5s linear;
+    -webkit-transition: opacity 0.5s linear;
+    transition: opacity 0.5s linear; */
 }
 
 .middle:hover {
+    opacity: 1;
     background-color: rgba(255, 255, 255, 0.72);
     backdrop-filter: blur(2px);
     animation: fadeIn 1s 1 forwards;
@@ -298,25 +315,25 @@ html {
 
 @keyframes fadeOut {
     0% { opacity: 1; }
-    100% { opacity: 0.3; }
+    100% { opacity: 0; }
 }
 
 @-moz-keyframes fadeOut {
     0% { opacity: 1; }
-    100% { opacity: 0.3; }
+    100% { opacity: 0; }
 }
 
 @-webkit-keyframes fadeOut {
     0% { opacity: 1; }
-    100% { opacity: 0.3; }
+    100% { opacity: 0; }
 }
 
 @-o-keyframes fadeOut {
     0% { opacity: 1; }
-    100% { opacity: 0.3; }
+    100% { opacity: 0; }
 }
 
 @-ms-keyframes fadeOut {
     0% { opacity: 1; }
-    100% { opacity: 0.3; }
+    100% { opacity: 0; }
 }
