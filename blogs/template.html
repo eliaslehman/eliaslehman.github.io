@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="../images/qcb_homepage_background.jpeg">
+        <!-- Tab name -->
+        <title>Elias's Site</title>
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <!-- Social link CSS -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+        <!-- Custom styles -->
+        <link href="../CSS/template.css" rel="stylesheet">
+        <link href="../CSS/common.css" rel="stylesheet">
+        <!-- Roboto - Google Font -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap core JavaScript -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.4/holder.min.js"></script>
+        <script type="text/javascript" src='index.js'></script>
+        <!--KTEXT Import-->
+        <link rel="stylesheet" href="../katex.min.css">
+        <script src="../katex.min.js"></script>
+        <script src="../smrender.js"></script>
+        <!-- ENABLES TOOLTIP -->
+        <script>
+        $(document).ready(function() {
+        $('[data-toggle="tooltip"]').tooltip();
+        });
+        </script>
+    </head>
+    <body onload="myRender()">
+        <!-- Home button -->
+        <a href="../index.html" class="home-btn">
+        <i class="fas fa-home"></i>
+        </a>
+
+        <style>
+        .home-btn {
+            position: fixed;
+            top: 20px;
+            left: 50%;
+            font-size: 28px;
+            color: white;
+            text-decoration: none;
+            z-index: 1000;
+        }
+        .home-btn:hover {
+            color: #ccc; /* subtle hover effect */
+        }
+        </style>
+        <!-- Title -->
+        <div class="bgimg-1" style="background-color: black;">
+            <img class="logo" style="object-fit: cover; position: fixed; width: 100%; height: 100%;" src="../images/drone.jpeg">
+            <div class="row" style="animation: fadeIn 1s 1 forwards;
+                -webkit-animation: fadeIn 2.5s 1 forwards;
+                -moz-animation: fadeIn 2.5s 1 forwards;
+                -o-animation: fadeIn 2.5s 1 forwards;
+                -ms-animation: fadeIn 2.5s 1 forwards">
+                <h3 class="lead">
+                    <h2 class="featurette-heading">Title</h2>
+                </h3>
+            </div>
+        <!-- Text -->
+            <div class="col" style="animation: fadeIn 1s 1 forwards;
+                -webkit-animation: fadeIn 2.5s 1 forwards;
+                -moz-animation: fadeIn 2.5s 1 forwards;
+                -o-animation: fadeIn 2.5s 1 forwards;
+                -ms-animation: fadeIn 2.5s 1 forwards" >
+                <h3 class="lead"> This is inline $\left\{\frac{1}{n^2}\right\}$ 
+                    but this is displayed \[\int_0^1\frac{x^4(1-x)^4}{1+x^2}\,dx =\frac{22}{7}-\pi\]
+                    centred on its own line.
+                </h3>
+            </div>
+        </div>
+    </body>

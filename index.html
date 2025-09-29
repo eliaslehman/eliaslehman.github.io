@@ -30,20 +30,15 @@
     </head>
     <body>
         <!--BODY OF THE WEBSITE + FIRST PARALLAX -->
-        
+        <!-- <audio controls>
+            <source src="/maa chudayi.aif">
+        </audio> -->
        <div class="bgimg-1" style="background-color: black;">
             <!-- NAVBAR -->
             <img class="logo" style="object-fit: cover; position: fixed; width: 100%; height: 100%;" src="images/drone.jpeg">
             <div class="row" id="about">
                 <div class="col">
-                    <div style="text-align: center;"><img class="profile" src="images/Lehman_Headshot_Informal.jpg"></div>
-                    <!-- <hr class="featurette-divider"> -->
-                    <!-- <h3 class="lead"> 
-                        Hello and welcome to my website. Below you'll find my porfolio of projects. 
-                        Professional inquiries may contact me at <a style='color: rgb(106, 188, 215);' href="mailto:eliaslehman@berkeley.edu">eliaslehman@berkeley.edu</a>. 
-                        <br>
-                        <a style='color: rgb(106, 188, 215);' href="images/Lehman_Resume.pdf">Resume</a> | <a style='color: rgb(106, 188, 215);' href="https://linkedin.com/in/eliaslehman">LinkedIn</a>
-                    </h3> -->
+                    <div style="text-align: center;"><img class="profile" src="images/headshot.jpeg"></div>
                 </div>
                 <div class="col" style="animation: fadeIn 1s 1 forwards;
                 -webkit-animation: fadeIn 2.5s 1 forwards;
@@ -53,21 +48,27 @@
                     <h3 class="lead"> 
                         <h2 class="featurette-heading">About Me</h2>
                         <hr class="featurette-divider">
-                        <h3 class="lead">Hello and welcome to my website. I’m Elias, a recent graduate of UC Berkeley, where I earned my Bachelor’s degree in Physics with a minor in EECS. 
-                            After graduating, I worked as a Research and Development Engineer at Berkeley’s Quantum Nanoelectronics Laboratory. 
-                            I'm now preparing to start a DPhil in Condensed Matter Physics at the University of Oxford, where I’ll continue my research into quantum-limited amplifiers.
+                        <h3 class="lead">Hello and welcome to my website. I’m Elias, a Physics graduate student at the University of Oxford in Dr. Boon-Kok Tan's Superconducting Quantum Detectors Laboratory. 
                             <br><br>
-                            I was raised in the East Bay Area, and while physics and engineering fuel my curiosity, I find balance through running, cooking, and spending time outdoors. 
-                            Whether I'm experimenting with a new recipe or pushing through the last mile of a long run, I enjoy activities that challenge me in different ways. 
+                            My research deals with designing quantum-limited amplifiers for applications across the mircowave and millimeter-wave bands (about 5-100 GHz). This technology finds use on telescope image sensors; in the measurement of single photons and quantum states; and in the search for axions, the proposed dark matter particle.
+                            <br><br>
+                            Previously, I worked at the University of California, Berkeley as a Research and Development Engineer in Irfan Siddiqi's Quantum Nanoelectronics Laboratory. There, I began designing the amplifiers I continue to study, and wrote my own quantum circuit compiler, Qdit, for systems with more than 2-levels.
                             <br><br>
                             Below you'll find my porfolio of projects. 
-                            Professional inquiries may contact me at <a style='color: rgb(106, 188, 215);' href="mailto:eliaslehman@berkeley.edu">eliaslehman@berkeley.edu</a>. 
+                            Professional inquiries may contact me at <a style='color: rgb(106, 188, 215);' href="mailto:elias.lehman@physics.ox.ac.uk">elias.lehman@physics.ox.ac.uk</a>. 
                         <br>
                         <a style='color: rgb(106, 188, 215);' href="images/Lehman_Resume.pdf">Resume</a> | <a style='color: rgb(106, 188, 215);' href="https://linkedin.com/in/eliaslehman">LinkedIn</a>
                         </h3>
                     </h3>
                 </div>
             </div>
+            <!-- Blog
+            <div class="row" id="blogs">
+                <div class="container">
+                    <h2 class="featurette-heading">Lessons</h2>
+                    <hr class="featurette-divider">
+                </div>
+            </div> -->
             
             <div class="row" id="projects">
                 <div class="container">
@@ -75,6 +76,13 @@
                     <hr class="featurette-divider">
                     <h3 class="featurette-heading">Graduate</h3>
                     <div class="row" style="justify-content: space-around; background-color: rgba(255, 255, 255, 0)">
+                        <div class="col">
+                            <div class="rounded card">
+                                <img class="rounded img-fluid" src="projects/QNL/qdit_image.png" alt="Card image cap">
+                                <div class="middle"><a href="https://github.com/qnl/qdit/tree/main">GitHub</a></div>
+                                <h5 class="card-text">Qdit (Circuit Compiler)</h5>
+                            </div>
+                        </div>
                         <div class="col">
                             <div class="rounded card">
                                 <img class="rounded img-fluid" src="projects/QNL/Parasitic_SNAIL_TWPA_Model_Derivation-5.pdf" alt="Card image cap">
