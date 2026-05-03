@@ -1,159 +1,144 @@
-/* CSS FILE FOR COMMON ELEMENTS */
-.navbar.navbar-toggleable-md.navbar-light.bg-faded {
-  position: fixed;
-  z-index: 16;
-  width: 100%;
-  background-color: rgb(137, 191, 218);
-  background: rgb(137, 191, 218);
-  border-color: transparent;
+/* Shared base styles for Elias Lehman's academic homepage. */
+
+:root {
+    /* colors */
+    --bg: #fbfaf7;
+    --paper: #fffefa;
+    --text: #1c1c1c;
+    --muted: #62605c;
+    --border: #dfdbd2;
+    --border-strong: #c8c1b4;
+    --accent: #002147;
+    --accent-soft: #4a657f;
+    --focus: #7b5f2a;
+
+    /* typography */
+    --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --font-heading: Georgia, "Times New Roman", Times, serif;
+    --line: 1.65;
+
+    /* layout */
+    --measure: 820px;
+    --measure-wide: 960px;
+    --space-xs: 0.35rem;
+    --space-sm: 0.65rem;
+    --space-md: 1rem;
+    --space-lg: 1.6rem;
+    --space-xl: 2.4rem;
+    --space-xxl: 3.8rem;
 }
 
-.navbar-collapse.collapse.show {
-  z-index: 1;
+* {
+    box-sizing: border-box;
 }
 
-.navbar-light .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+html {
+    scroll-behavior: smooth;
 }
 
-.navbar-light .navbar-nav .nav-link {
-  font-family: 'Verdana', monospace;
-  color: rgb(255, 255, 255);
+body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: var(--line);
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
 }
 
-.navbar-light .navbar-nav .nav-link.active {
-  font-family: 'Verdana', Courier, monospace;
-  color: rgb(255, 255, 255);
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
-.navbar-light .navbar-nav .nav-link:hover {
-  font-family: 'Verdana', monospace;
-  color: rgb(215, 244, 255);
+a {
+    color: var(--accent);
+    text-decoration-thickness: 0.08em;
+    text-underline-offset: 0.18em;
 }
 
-.navbar-nav li:hover > ul.dropdown-menu {
-  font-family: 'Verdana', monospace;
-  display: block;
+a:hover {
+    color: var(--accent-soft);
 }
 
-/*.photo-credits {
-  color: white;
-  font-size: 10px; 
-  position: absolute; 
-  bottom: 0; right: 0
-}*/
-.navbar-brand > img {
-  display: block;
-  max-width: 150px;
-  max-height: 50px;
-  width: auto;
-  height: auto;
+a:focus-visible {
+    outline: 2px solid var(--focus);
+    outline-offset: 3px;
+    border-radius: 2px;
 }
 
-.button {
-  font-family: 'Courier New';
-  color: black;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.2s;
-  cursor: pointer;
-  box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.448);
+p,
+ul,
+ol {
+    margin-top: 0;
 }
 
-.button1 {
-  background-color: white; 
-  box-shadow: 0px 0px 40px 0 rgba(0, 0, 0, 0.273);
-  font-family: 'Verdana', monospace;
-  color: black; 
+p:last-child,
+ul:last-child,
+ol:last-child {
+    margin-bottom: 0;
 }
 
-.button1:hover {
-  background-color: black; 
-  color: white; 
-  text-decoration: none;
+h1,
+h2,
+h3,
+h4 {
+    color: var(--text);
+    font-family: var(--font-heading);
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 0 0 var(--space-sm);
 }
 
-.featurette-heading {
-  font-family: 'Verdana', monospace;
-  color: rgb(255, 255, 255);
-  font-weight: 200;
-  line-height: 1;
+h1 {
+    font-size: clamp(2.1rem, 6vw, 3.25rem);
+    letter-spacing: -0.035em;
 }
 
-hr.featurette-divider {
-  border-top: 1px solid rgba(255, 255, 255, 0.208);
+h2 {
+    font-size: clamp(1.45rem, 3vw, 1.85rem);
+    margin-top: 0;
 }
 
-.Header {
-  height: 100%;
-  font-family: 'Courier New';
-  font-size: 70px;
-  color: rgb(0, 0, 0);
-  position: relative;
-  text-align: center;
-  padding: 50px 10%;
-  background-color: #00000046;
-  /*text-align: justify;*/
+h3 {
+    font-size: 1.12rem;
+    margin-top: var(--space-lg);
 }
 
-.a {
-  color: #c7cdff;
+h4 {
+    font-family: var(--font-body);
+    font-size: 1rem;
+    font-weight: 650;
 }
 
-.a:hover {
-  color: #ffffff;
+.skip-link {
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    z-index: 10;
+    transform: translateY(-150%);
+    background: var(--paper);
+    color: var(--text);
+    border: 1px solid var(--border-strong);
+    padding: 0.45rem 0.65rem;
 }
 
-.lead {
-  line-height: 25px;
+.skip-link:focus {
+    transform: translateY(0);
 }
 
-.h4, h3, p {
-  color: rgb(0, 0, 0);
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
 
-.bgimg-2 {
-
-  /*background-image: url(../images/image2.png);*/
-  /*background-color: #1E1E1E;*/
-  /*background: linear-gradient(to right, #282828 , #1E1E1E);*/
-  /*min-height: 135px;*/
-  margin-bottom: 50px;
-  position: relative;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.footer {
-  position: relative;  /*overflow-x: hidden;*/
-  width: 100%;
-}
-
-.footer > .row {
-  color: rgb(255, 255, 255);
-  background-color: #000000;
-  padding: 50px 80px;
-  text-align: justify;
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;  /*min-width:100%;*/
-}
-
-.col-sm-4 {
-  text-align: center;
-}
-
-/* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width:1024px) {
-  .bgimg-1, .bgimg-2, .bgimg-3 {
-    background-attachment: scroll;
-  }
-
+    *,
+    *::before,
+    *::after {
+        transition-duration: 0.001ms !important;
+        animation-duration: 0.001ms !important;
+        animation-iteration-count: 1 !important;
+    }
 }
